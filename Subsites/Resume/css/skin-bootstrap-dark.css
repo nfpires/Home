@@ -1,0 +1,97 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Droid Sans', sans-serif;
+}
+a,
+.primary-color,
+.dark .primary-color {
+  color: #cc0000;
+}
+a:hover {
+  color: #660000;
+}
+.blogitem .blogitem-hoverinfo,
+.portfolioitem .portfolioitem-hoverinfo {
+  background-color: #cc0000;
+  color: #fff;
+}
+#resumenav a {
+  color: #cc0000;
+}
+#resumenav a:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.icon-btn:hover,
+.btn-primary:hover,
+.blogitem .blogitem-actions a:hover,
+.portfolioitem .portfolioitem-actions a:hover {
+  background-color: #660000 !important;
+}
+#resumenav li.active a,
+.nav-pills > .active > a {
+  background-color: #cc0000 !important;
+  color: #fff;
+}
+.icon-btn,
+.btn-primary {
+  background-color: #cc0000;
+}
+.progress .bar {
+  background-color: #cc0000;
+  background-image: -moz-linear-gradient(top,#cc0000,#660000);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#cc0000),to(#660000));
+  background-image: -webkit-linear-gradient(top,#cc0000,#660000);
+  background-image: -o-linear-gradient(top,#cc0000,#660000);
+  background-image: linear-gradient(to bottom,#cc0000,#660000);
+}
+body {
+  background: #1B1B1B url("../images/textures/bg.jpg") fixed repeat !important;
+}
+#content {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0);
+}
+#sidebar.sbright .sidebar-nav {
+  background: #1B1B1B;
+  border-left: 5px solid #1B1B1B;
+  border-right: none;
+}
+#sidebar.sbleft .sidebar-nav {
+  background: #1B1B1B;
+  border-right: 5px solid #1B1B1B;
+  border-left: none;
+}
+#footer {
+  color: #666;
+}
+.section .section-title {
+  color: #fff;
+  background-color: #1B1B1B;
+  border-right: 5px solid #1B1B1B;
+}
+.section .section-title .glyphicons i:before {
+  color: #fff !important;
+}
+.timeline-item-trigger span i:before {
+  background-color: #cc0000;
+  border: 6px solid #cc0000;
+}
+.timeline-item-trigger span:hover i:before {
+  background-color: #660000;
+  border-color: #660000;
+}
+@media (max-width: 767px) {
+  .section .section-title {
+    border-bottom: 5px solid #660000;
+    border-top: 5px solid #660000;
+  }
+}

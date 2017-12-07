@@ -1,0 +1,5 @@
+Prew_img    984x327
+icons 17x17
+Projects 179x118
+Samples Projects 1024x780
+Project Thumbs 75x75

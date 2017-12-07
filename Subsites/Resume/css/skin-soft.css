@@ -1,0 +1,97 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bitter', serif;
+}
+a,
+.primary-color,
+.dark .primary-color {
+  color: #6b9c00;
+}
+a:hover {
+  color: #497a22;
+}
+.blogitem .blogitem-hoverinfo,
+.portfolioitem .portfolioitem-hoverinfo {
+  background-color: #6b9c00;
+  color: #fff;
+}
+#resumenav a {
+  color: #444444;
+}
+#resumenav a:hover {
+  background-color: #6b9c00;
+  color: #fff;
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.icon-btn:hover,
+.btn-primary:hover,
+.blogitem .blogitem-actions a:hover,
+.portfolioitem .portfolioitem-actions a:hover {
+  background-color: #497a22 !important;
+}
+#resumenav li.active a,
+.nav-pills > .active > a {
+  background-color: #6b9c00 !important;
+  color: #fff;
+}
+.icon-btn,
+.btn-primary {
+  background-color: #6b9c00;
+}
+.progress .bar {
+  background-color: #6b9c00;
+  background-image: -moz-linear-gradient(top,#6b9c00,#497a22);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#6b9c00),to(#497a22));
+  background-image: -webkit-linear-gradient(top,#6b9c00,#497a22);
+  background-image: -o-linear-gradient(top,#6b9c00,#497a22);
+  background-image: linear-gradient(to bottom,#6b9c00,#497a22);
+}
+body {
+  background: #fcfcfc url("../images/textures/square_bg.png") fixed repeat !important;
+}
+#content {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+#sidebar.sbright .sidebar-nav {
+  background: #efefef;
+  border-left: 5px solid #6b9c00;
+  border-right: none;
+}
+#sidebar.sbleft .sidebar-nav {
+  background: #efefef;
+  border-right: 5px solid #6b9c00;
+  border-left: none;
+}
+#footer {
+  color: #666;
+}
+.section .section-title {
+  color: #444444;
+  background-color: #eeeeee;
+  border-right: 5px solid #6b9c00;
+}
+.section .section-title .glyphicons i:before {
+  color: #444444 !important;
+}
+.timeline-item-trigger span i:before {
+  background-color: #6b9c00;
+  border: 6px solid #6b9c00;
+}
+.timeline-item-trigger span:hover i:before {
+  background-color: #497a22;
+  border-color: #497a22;
+}
+@media (max-width: 767px) {
+  .section .section-title {
+    border-bottom: 5px solid #497a22;
+    border-top: 5px solid #497a22;
+  }
+}
