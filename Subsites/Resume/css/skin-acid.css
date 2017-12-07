@@ -1,0 +1,97 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+a,
+.primary-color,
+.dark .primary-color {
+  color: #e024d3;
+}
+a:hover {
+  color: #be02b1;
+}
+.blogitem .blogitem-hoverinfo,
+.portfolioitem .portfolioitem-hoverinfo {
+  background-color: #e024d3;
+  color: #fff;
+}
+#resumenav a {
+  color: #fff;
+}
+#resumenav a:hover {
+  background-color: #e024d3;
+  color: #fff;
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.icon-btn:hover,
+.btn-primary:hover,
+.blogitem .blogitem-actions a:hover,
+.portfolioitem .portfolioitem-actions a:hover {
+  background-color: #be02b1 !important;
+}
+#resumenav li.active a,
+.nav-pills > .active > a {
+  background-color: #e024d3 !important;
+  color: #fff;
+}
+.icon-btn,
+.btn-primary {
+  background-color: #e024d3;
+}
+.progress .bar {
+  background-color: #e024d3;
+  background-image: -moz-linear-gradient(top,#e024d3,#be02b1);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#e024d3),to(#be02b1));
+  background-image: -webkit-linear-gradient(top,#e024d3,#be02b1);
+  background-image: -o-linear-gradient(top,#e024d3,#be02b1);
+  background-image: linear-gradient(to bottom,#e024d3,#be02b1);
+}
+body {
+  background: #1c1c1c url("../images/textures/diagmonds.png") fixed repeat !important;
+}
+#content {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+#sidebar.sbright .sidebar-nav {
+  background: #181818;
+  border-left: 5px solid #151515;
+  border-right: none;
+}
+#sidebar.sbleft .sidebar-nav {
+  background: #181818;
+  border-right: 5px solid #151515;
+  border-left: none;
+}
+#footer {
+  color: #666;
+}
+.section .section-title {
+  color: #fff;
+  background-color: #181818;
+  border-right: 5px solid #be02b1;
+}
+.section .section-title .glyphicons i:before {
+  color: #fff !important;
+}
+.timeline-item-trigger span i:before {
+  background-color: #e024d3;
+  border: 6px solid #e024d3;
+}
+.timeline-item-trigger span:hover i:before {
+  background-color: #be02b1;
+  border-color: #be02b1;
+}
+@media (max-width: 767px) {
+  .section .section-title {
+    border-bottom: 5px solid #be02b1;
+    border-top: 5px solid #be02b1;
+  }
+}
